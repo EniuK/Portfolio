@@ -1,9 +1,17 @@
 import "./navigation.scss";
 import photo from "../photos/photo-to-change.jpg";
+import home from "../photos/homepage.png";
+import { Link } from "react-router-dom";
 const Navigation = () => {
   return (
     <div className="navbar">
-      <h1>I AM NAVIGATION</h1>
+      <div className="photo-wrapper">
+        <Link to="/">
+          <img className="home-page" src={home} alt="Home page" />
+        </Link>
+
+        <span className="link-to-home">HOME PAGE</span>
+      </div>
       <img className="profile" src={photo} alt="nope" />
       <div className="about">
         <h3>Introduction</h3>
