@@ -21,6 +21,34 @@ const Projects = () => {
             Technologies I used: HTML, SCSS, REACT, firebase, react router, MUI{" "}
             {`(in progress)`}
           </span>
+          <span>
+            <br />
+            Link for site:{" "}
+            <a href="https://coffe-api.vercel.app">
+              https://coffe-api.vercel.app
+            </a>
+          </span>
+        </p>
+      </div>
+      <div className="project">
+        <h2>Clicker JS game</h2>
+        <p>
+          Since I started programming, I was into writing clicker game{" "}
+          {"(like cookie clicker). "}That game was first game i wanted to
+          produce by myself. It is my first project and i decided to write it in
+          js just to show that I started from basics.
+        </p>
+        <span className="technologies">
+          Techologies I used: HTML, CSS, JS, dom.
+        </span>
+        <br />
+        Link for this site: <a href="/"></a>
+      </div>
+      <div className="project">
+        <h2>Copy Layout</h2>
+        <p>
+          It's a site where I will add responsive sites by copying layouts of
+          single pages. It wont have any functionality. Here I will practise and also try new things and ideas, so it works like a test page. 
         </p>
       </div>
     </div>
