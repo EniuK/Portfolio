@@ -2,7 +2,8 @@ import "./me.scss";
 const Me = () => {
   return (
     <div className="me">
-      <p>Me</p>
+      <h2>Who am I?</h2>
+      <p>I'm a young person ..........</p>
     </div>
   );
 };
